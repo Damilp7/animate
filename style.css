@@ -8,6 +8,8 @@
   width: 100%;
   height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .child{
@@ -17,9 +19,10 @@
   border-style: solid;
   border-color: blue;
   display: flex;
-  margin: 150px auto;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+  
   border-radius: 50%;
   animation: loading 2s infinite forwards;
 }
@@ -53,6 +56,7 @@
   height: 60px;
   border: 15px solid lime;
   animation: square 1s infinite alternate-reverse;
+  margin: 0 auto;
   
 }
 
@@ -85,7 +89,7 @@
   height: 0px; 
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  margin: auto;
+  margin: 0 auto;
   border-bottom: 20px solid aquamarine;
   padding-top: 10px;
   animation: triangle 1s infinite; 
@@ -95,7 +99,7 @@
   height: 0; 
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  margin: auto;
+  margin: 0 auto;
   padding-bottom: 10px;
   border-top: 20px solid #f00;
   animation: arrow 1s infinite;
@@ -145,3 +149,15 @@
   }
 }
 
+h3{
+  position: absolute;
+  top: 10px;
+}
+
+a{
+  color: #5fbb14;
+}
+
+a:hover{
+  color: rgb(182, 7, 182);
+}
